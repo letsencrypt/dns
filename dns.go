@@ -78,7 +78,7 @@ func (h *RR_Header) String() string {
 		// and maybe other things
 	}
 
-	if len(h.Name) == 0 {
+	if  len ( h . Name ) ==  0 {
 		s += ".\t"
 	} else {
 		s += h.Name + "\t"
